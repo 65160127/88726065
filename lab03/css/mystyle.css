@@ -1,0 +1,66 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: white;
+    font-family: Noto Sans;
+}
+
+.main {
+    font-size: 25px;
+    margin: 20px;
+    width: fit-content;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.aboutme {
+        width: fit-content;
+        height: auto;
+        padding: 10px;
+        margin: 5px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.timetable_header {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.timetable_header th {
+    background-color: #719288;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.timetable_header th,
+.timetable_header td {
+    border: 1px solid #969393;
+    padding: 10px;
+    text-align: center;
+}
+
+.timetable_header td.has-text{
+    background-color: rgba(103, 195, 207, 0.603);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.blog {
+    font-size: 15px;
+}
+

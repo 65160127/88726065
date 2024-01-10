@@ -1,0 +1,36 @@
+<style>
+    body {
+        display: flex;
+    }
+</style>
+
+ใส่มีพื้นหลัง 
+<style>
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+</style>
+
+ขยับหัวข้อ
+        <h2 style="margin-left: 120px;">ใบสมัครงาน</h2>
+
+<style>
+body{
+	margin-right: 230px;"
+	font-weight:bold;"
+}
+</style>
+
+<center>
+
+table {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+ form {
+            margin: 20px;
+        }
+
+style="margin-right: 120px;"
