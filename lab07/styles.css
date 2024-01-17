@@ -3,16 +3,16 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 20px;
-    background-color: #f8f8f8;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
-    color: #333;
+    color: #ff4343;
     font-size: 24px;
-    background-color: #bbffb2;
+    background-color: #f688fa;
     padding: 15px;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(109, 31, 31);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +23,7 @@ ul {
 }
 
 li {
-    background-color: #fff;
+    background-color: #e5c0f7;
 
     padding: 15px;
     margin: 10px 0;
@@ -51,7 +51,7 @@ input[type="text"] {
 
 button {
     padding: 12px 24px;
-    background-color: #ffaced;
+    background-color: #d869c0;
     color: white;
     border: none;
     border-radius: 8px;
