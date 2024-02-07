@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "จิตวิทยาสายดาร์ก",
+        "price": "250",
+        "author": [
+            "Dr.Hiro",
+            "Dr.Yuzaku",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Money Sumary",
+        "price": "259",
+        "author": [
+            "จักรพงษ์ เมษพันธุ์",
+            "วิฑูรย์",
+            ""
+        ]
+    },
+    {
+        "id": 3,
+        "name": "ผึ้งน้อยจอมขยัน",
+        "price": "195",
+        "author": [
+            "แอนนา เบรตต์",
+            "โทบัส วิลเลี่ยม",
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "name": "ครึ่งหนึ่งของฉันคือเธอ",
+        "price": "99",
+        "author": [
+            "Arashi Arima",
+            "Isaku Natsume",
+            "Michiru Kajikaya"
+        ]
+    }
+]
