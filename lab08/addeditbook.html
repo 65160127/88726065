@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
         integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"
         origin="anonymous" />
@@ -19,16 +19,17 @@
             <h3>Book DB :: Add / Edit</h3>
         </center>
     </div>
-    <br>
-    <input type="text" id="book_name" placeholder="ชื่อหนังสือ"><br>
-    <input type="text" id="book_price" placeholder="ราคา"><br>
-    <input type="text" id="book_author1" placeholder="ผู้แต่ง-1"><br>
-    <input type="text" id="book_author2" placeholder="ผู้แต่ง-2"><br>
-    <input type="text" id="book_author3" placeholder="ผู้แต่ง-3"><br>
-    <center>
-        <button onclick="addBook()">บันทึก</button>
-    </center>
 
+    <br />
+    <br />
+        <input type="text" id="book_name" placeholder="ชื่อหนังสือ"><br>
+        <input type="text" id="book_price" placeholder="ราคา"><br>
+        <input type="text" id="book_author1" placeholder="ผู้แต่ง-1"><br>
+        <input type="text" id="book_author2" placeholder="ผู้แต่ง-2"><br>
+        <input type="text" id="book_author3" placeholder="ผู้แต่ง-3"><br>
+        <br />
+
+        <button onclick="addBook()">บันทึก</button>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         var id = urlParams.get('id');
@@ -53,6 +54,7 @@
                     break;
                 }
             }
+
         }
         function addBook() {
             var name = document.getElementById("book_name").value;
@@ -98,7 +100,7 @@
                 }
             }
             return max;
-        }
+        }     
     </script>
 </body>
 
